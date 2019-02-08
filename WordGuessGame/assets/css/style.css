@@ -1,4 +1,4 @@
-  body {
+body {
     background: #c1d72e;
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     color: #fff;
@@ -94,14 +94,14 @@
   .active {
     opacity: 0.4;
     filter: alpha(opacity=40);
-    -moz-transition: all 1s ease-in;
-    -moz-transition: all 0.3s ease-in-out;
+    transition: all 1s ease-in;
+    transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
     cursor: default;
   }
   .active:hover {
-    -moz-transition: all 1s ease-in;
-    -moz-transition: all 0.3s ease-in-out;
+    transition: all 1s ease-in;
+    transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
     opacity: 0.4;
     filter: alpha(opacity=40);
@@ -151,4 +151,3 @@
       padding: 0 0 0 25px;
     }
   }
- 
